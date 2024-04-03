@@ -6,5 +6,5 @@ export interface LivroRepository {
     consultarPorId(id: number): void
     cadastrar(livro: Livro): void
     atualizar(livro: Livro): void
-    deletar(id: number): VoidFunction
+    deletar(id: number): void
 }
