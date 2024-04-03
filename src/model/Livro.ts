@@ -60,7 +60,7 @@ export abstract class  Livro {
         console.log("******************************************************")
         console.log(`   Número do ID: ${this._id}`)
         console.log(`   Título da obra: ${this._titulo}`)
-        console.log(`   Autor: ${this._autor}`)
+        console.log(`   Autor(a): ${this._autor}`)
         console.log(`   Tipo: ${tipo}`)
         console.log(`   Valor: ${this._preco.toFixed(2)}`)
     }

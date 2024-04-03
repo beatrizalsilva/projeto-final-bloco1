@@ -1,6 +1,16 @@
 import readlinesync = require("readline-sync")
 
+import { Ficcao } from "./src/model/Ficcao"
+import { NaoFiccao } from "./src/model/NaoFiccao"
+
 export function main() {
+    // teste
+    const livro1: Ficcao = new Ficcao(1, "Orgulho e Preconceito", "Jane Austen", 1, 19.20, "Romance hitórico")
+    livro1.visualizar()
+
+    const livro2: NaoFiccao = new NaoFiccao(2, "Entendendo Algoritmos", "Aditya Y. Bhargava", 2, 65, "Programação")
+    livro2.visualizar()
+
     while(true) {
         console.log("*****************************************************")
         console.log("                                                     ")
